@@ -1,0 +1,302 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (MS311 Series), page 1.
+
+Symbol Table
+
+    .__.$$$.=  2710 L   |     .__.ABS.=  0000 G   |     .__.CPU.=  0000 L
+    .__.H$L.=  0001 L   |   8 A$mutede   0044 GR  |   8 A$mutede   0045 GR
+  8 A$mutede   0047 GR  |   8 A$mutede   0049 GR  |   8 A$mutede   004A GR
+  8 A$mutede   004C GR  |   8 A$mutede   004E GR  |   8 A$mutede   0050 GR
+  8 A$mutede   0052 GR  |   8 A$mutede   0054 GR  |   8 A$mutede   0056 GR
+  8 A$mutede   0058 GR  |   8 A$mutede   005A GR  |   8 A$mutede   005C GR
+  8 A$mutede   005E GR  |   8 A$mutede   005F GR  |   8 A$mutede   0061 GR
+  8 A$mutede   0063 GR  |   8 A$mutede   0065 GR  |   8 A$mutede   0066 GR
+  8 A$mutede   0068 GR  |   8 A$mutede   006A GR  |   8 A$mutede   006C GR
+  8 A$mutede   006D GR  |   8 A$mutede   006F GR  |   8 A$mutede   0071 GR
+  8 A$mutede   0073 GR  |   8 A$mutede   0075 GR  |   8 A$mutede   0076 GR
+  8 A$mutede   0078 GR  |   8 A$mutede   0079 GR  |   8 A$mutede   007B GR
+  8 A$mutede   007D GR  |   8 A$mutede   007F GR  |   8 A$mutede   0081 GR
+  8 A$mutede   0082 GR  |   8 A$mutede   0084 GR  |   8 A$mutede   0086 GR
+  8 A$mutede   0088 GR  |   8 A$mutede   008A GR  |   8 A$mutede   008C GR
+  8 A$mutede   008D GR  |   8 A$mutede   008E GR  |   8 A$mutede   0090 GR
+  8 A$mutede   0092 GR  |   8 A$mutede   0094 GR  |   8 A$mutede   0095 GR
+  8 A$mutede   0097 GR  |   8 A$mutede   0099 GR  |   8 A$mutede   009B GR
+  8 A$mutede   009C GR  |   8 A$mutede   009E GR  |   8 A$mutede   00A0 GR
+  8 A$mutede   00A2 GR  |   8 A$mutede   00A3 GR  |   8 A$mutede   00A5 GR
+  8 A$mutede   00A6 GR  |   8 A$mutede   00A8 GR  |   8 A$mutede   00AA GR
+  8 A$mutede   00AC GR  |   8 A$mutede   00AE GR  |   8 A$mutede   00B0 GR
+  8 A$mutede   00B2 GR  |   8 A$mutede   00B4 GR  |   8 A$mutede   00B6 GR
+  8 A$mutede   00B8 GR  |   8 A$mutede   00BA GR  |   8 A$mutede   00BC GR
+  8 A$mutede   00BE GR  |   8 A$mutede   00C0 GR  |   8 A$mutede   00C2 GR
+  8 A$mutede   00C4 GR  |   8 A$mutede   00C6 GR  |   8 A$mutede   00C8 GR
+  8 A$mutede   00CA GR  |   8 A$mutede   00CC GR  |   8 A$mutede   00CD GR
+  8 A$mutede   00CE GR  |   8 A$mutede   00CF GR  |   8 A$mutede   00D0 GR
+  8 A$mutede   00D2 GR  |   8 A$mutede   00D4 GR  |   8 A$mutede   00D5 GR
+  8 A$mutede   00D6 GR  |   8 A$mutede   00D7 GR  |   8 A$mutede   00D9 GR
+  8 A$mutede   00DA GR  |   8 A$mutede   00DC GR  |   8 A$mutede   00DD GR
+  8 A$mutede   00DF GR  |   8 A$mutede   00E1 GR  |   8 A$mutede   00E3 GR
+  8 A$mutede   00E5 GR  |   8 A$mutede   00E6 GR  |   8 A$mutede   00E7 GR
+  8 A$mutede   00E8 GR  |   8 A$mutede   00EA GR  |   8 A$mutede   00EB GR
+  8 A$mutede   00ED GR  |   8 A$mutede   00EF GR  |   8 A$mutede   00F1 GR
+  8 A$mutede   00F3 GR  |   8 A$mutede   00F4 GR  |   8 A$mutede   00F6 GR
+  8 A$mutede   00F8 GR  |   8 A$mutede   00FA GR  |   8 A$mutede   00FB GR
+  8 A$mutede   00FD GR  |   8 A$mutede   00FF GR  |   8 A$mutede   0101 GR
+  8 A$mutede   0103 GR  |   8 A$mutede   0104 GR  |   8 A$mutede   0106 GR
+  8 A$mutede   0108 GR  |   8 A$mutede   010A GR  |   8 A$mutede   010C GR
+  8 A$mutede   010D GR  |   8 A$mutede   010F GR  |   8 A$mutede   0111 GR
+  8 A$mutede   0113 GR  |   8 A$mutede   0115 GR  |   8 A$mutede   0117 GR
+  8 A$mutede   0119 GR  |   8 A$mutede   0000 GR  |   8 A$mutede   011A GR
+  8 A$mutede   011C GR  |   8 A$mutede   011E GR  |   8 A$mutede   0120 GR
+  8 A$mutede   0122 GR  |   8 A$mutede   0123 GR  |   8 A$mutede   0125 GR
+  8 A$mutede   0127 GR  |   8 A$mutede   0129 GR  |   8 A$mutede   012B GR
+  8 A$mutede   012D GR  |   8 A$mutede   012F GR  |   8 A$mutede   0130 GR
+  8 A$mutede   0132 GR  |   8 A$mutede   0134 GR  |   8 A$mutede   0136 GR
+  8 A$mutede   0138 GR  |   8 A$mutede   0139 GR  |   8 A$mutede   013A GR
+  8 A$mutede   013B GR  |   8 A$mutede   013C GR  |   8 A$mutede   013E GR
+  8 A$mutede   013F GR  |   8 A$mutede   0140 GR  |   8 A$mutede   0142 GR
+  8 A$mutede   0143 GR  |   8 A$mutede   0145 GR  |   8 A$mutede   0146 GR
+  8 A$mutede   0147 GR  |   8 A$mutede   0148 GR  |   8 A$mutede   014A GR
+  8 A$mutede   014B GR  |   8 A$mutede   014D GR  |   8 A$mutede   014F GR
+  8 A$mutede   0151 GR  |   8 A$mutede   0152 GR  |   8 A$mutede   0154 GR
+  8 A$mutede   0156 GR  |   8 A$mutede   0158 GR  |   8 A$mutede   015A GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (MS311 Series), page 2.
+
+Symbol Table
+
+  8 A$mutede   015C GR  |   8 A$mutede   015E GR  |   8 A$mutede   0160 GR
+  8 A$mutede   0162 GR  |   8 A$mutede   0164 GR  |   8 A$mutede   0166 GR
+  8 A$mutede   0168 GR  |   8 A$mutede   016A GR  |   8 A$mutede   016C GR
+  8 A$mutede   016E GR  |   8 A$mutede   0170 GR  |   8 A$mutede   0171 GR
+  8 A$mutede   0172 GR  |   8 A$mutede   0173 GR  |   8 A$mutede   0175 GR
+  8 A$mutede   0176 GR  |   8 A$mutede   0178 GR  |   8 A$mutede   017A GR
+  8 A$mutede   017B GR  |   8 A$mutede   017C GR  |   8 A$mutede   017D GR
+  8 A$mutede   017E GR  |   8 A$mutede   0180 GR  |   8 A$mutede   0181 GR
+  8 A$mutede   0182 GR  |   8 A$mutede   0184 GR  |   8 A$mutede   0185 GR
+  8 A$mutede   0187 GR  |   8 A$mutede   0189 GR  |   8 A$mutede   018B GR
+  8 A$mutede   018D GR  |   8 A$mutede   018F GR  |   8 A$mutede   0190 GR
+  8 A$mutede   0192 GR  |   8 A$mutede   0194 GR  |   8 A$mutede   0195 GR
+  8 A$mutede   0197 GR  |   8 A$mutede   0199 GR  |   8 A$mutede   019A GR
+  8 A$mutede   019C GR  |   8 A$mutede   019E GR  |   8 A$mutede   01A0 GR
+  8 A$mutede   01A1 GR  |   8 A$mutede   01A3 GR  |   8 A$mutede   01A5 GR
+  8 A$mutede   01A6 GR  |   8 A$mutede   01A8 GR  |   8 A$mutede   01AA GR
+  8 A$mutede   01AB GR  |   8 A$mutede   01AD GR  |   8 A$mutede   01AF GR
+  8 A$mutede   01B0 GR  |   8 A$mutede   01B2 GR  |   8 A$mutede   01B4 GR
+  8 A$mutede   01B6 GR  |   8 A$mutede   01B7 GR  |   8 A$mutede   01B9 GR
+  8 A$mutede   01BA GR  |   8 A$mutede   01BC GR  |   8 A$mutede   01BE GR
+  8 A$mutede   01BF GR  |   8 A$mutede   01C1 GR  |   8 A$mutede   01C3 GR
+  8 A$mutede   01C5 GR  |   8 A$mutede   01C6 GR  |   8 A$mutede   01C8 GR
+  8 A$mutede   01CA GR  |   8 A$mutede   01CB GR  |   8 A$mutede   01CD GR
+  8 A$mutede   01CE GR  |   8 A$mutede   01D0 GR  |   8 A$mutede   01D1 GR
+  8 A$mutede   01D3 GR  |   8 A$mutede   01D5 GR  |   8 A$mutede   01D6 GR
+  8 A$mutede   01D8 GR  |   8 A$mutede   01DA GR  |   8 A$mutede   01DB GR
+  8 A$mutede   01DD GR  |   8 A$mutede   01DE GR  |   8 A$mutede   01DF GR
+  8 A$mutede   01E1 GR  |   8 A$mutede   01E3 GR  |   8 A$mutede   01E4 GR
+  8 A$mutede   01E6 GR  |   8 A$mutede   01E7 GR  |   8 A$mutede   01E8 GR
+  8 A$mutede   01E9 GR  |   8 A$mutede   01EB GR  |   8 A$mutede   01EC GR
+  8 A$mutede   01EE GR  |   8 A$mutede   01EF GR  |   8 A$mutede   01F1 GR
+  8 A$mutede   01F2 GR  |   8 A$mutede   01F3 GR  |   8 A$mutede   01F5 GR
+  8 A$mutede   01F6 GR  |   8 A$mutede   01F8 GR  |   8 A$mutede   01F9 GR
+  8 A$mutede   01FB GR  |   8 A$mutede   01FD GR  |   8 A$mutede   01FE GR
+  8 A$mutede   01FF GR  |   8 A$mutede   0201 GR  |   8 A$mutede   0202 GR
+  8 A$mutede   0204 GR  |   8 A$mutede   0002 GR  |   8 A$mutede   0206 GR
+  8 A$mutede   0208 GR  |   8 A$mutede   020A GR  |   8 A$mutede   020C GR
+  8 A$mutede   020E GR  |   8 A$mutede   0210 GR  |   8 A$mutede   0212 GR
+  8 A$mutede   0004 GR  |   8 A$mutede   0213 GR  |   8 A$mutede   0215 GR
+  8 A$mutede   0216 GR  |   8 A$mutede   0217 GR  |   8 A$mutede   0218 GR
+  8 A$mutede   0219 GR  |   8 A$mutede   0006 GR  |   8 A$mutede   021B GR
+  8 A$mutede   021D GR  |   8 A$mutede   021E GR  |   8 A$mutede   0220 GR
+  8 A$mutede   0222 GR  |   8 A$mutede   0223 GR  |   8 A$mutede   0224 GR
+  8 A$mutede   0008 GR  |   8 A$mutede   0225 GR  |   8 A$mutede   0227 GR
+  8 A$mutede   0228 GR  |   8 A$mutede   0229 GR  |   8 A$mutede   022B GR
+  8 A$mutede   000A GR  |   8 A$mutede   022D GR  |   8 A$mutede   022F GR
+  8 A$mutede   0231 GR  |   8 A$mutede   0233 GR  |   8 A$mutede   0235 GR
+  8 A$mutede   000C GR  |   8 A$mutede   0237 GR  |   8 A$mutede   0238 GR
+  8 A$mutede   0239 GR  |   8 A$mutede   023A GR  |   8 A$mutede   023B GR
+  8 A$mutede   023D GR  |   8 A$mutede   023F GR  |   8 A$mutede   0240 GR
+  8 A$mutede   0241 GR  |   8 A$mutede   0242 GR  |   8 A$mutede   0244 GR
+  8 A$mutede   0245 GR  |   8 A$mutede   0247 GR  |   8 A$mutede   0249 GR
+  8 A$mutede   024A GR  |   8 A$mutede   024C GR  |   8 A$mutede   024D GR
+  8 A$mutede   000E GR  |   8 A$mutede   0010 GR  |   8 A$mutede   024E GR
+  8 A$mutede   0250 GR  |   8 A$mutede   0251 GR  |   8 A$mutede   0252 GR
+  8 A$mutede   0012 GR  |   8 A$mutede   0253 GR  |   8 A$mutede   0254 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (MS311 Series), page 3.
+
+Symbol Table
+
+  8 A$mutede   0255 GR  |   8 A$mutede   0257 GR  |   8 A$mutede   0258 GR
+  8 A$mutede   025A GR  |   8 A$mutede   025B GR  |   8 A$mutede   025D GR
+  8 A$mutede   0014 GR  |   8 A$mutede   025E GR  |   8 A$mutede   0260 GR
+  8 A$mutede   0262 GR  |   8 A$mutede   0264 GR  |   8 A$mutede   0266 GR
+  8 A$mutede   0268 GR  |   8 A$mutede   0269 GR  |   8 A$mutede   026B GR
+  8 A$mutede   026D GR  |   8 A$mutede   0016 GR  |   8 A$mutede   026E GR
+  8 A$mutede   0270 GR  |   8 A$mutede   0272 GR  |   8 A$mutede   0273 GR
+  8 A$mutede   0275 GR  |   8 A$mutede   0277 GR  |   8 A$mutede   0279 GR
+  8 A$mutede   0017 GR  |   8 A$mutede   027B GR  |   8 A$mutede   027D GR
+  8 A$mutede   027E GR  |   8 A$mutede   027F GR  |   8 A$mutede   0280 GR
+  8 A$mutede   0282 GR  |   8 A$mutede   0283 GR  |   8 A$mutede   0285 GR
+  8 A$mutede   0286 GR  |   8 A$mutede   0288 GR  |   8 A$mutede   0019 GR
+  8 A$mutede   0289 GR  |   8 A$mutede   028A GR  |   8 A$mutede   028B GR
+  8 A$mutede   028D GR  |   8 A$mutede   028E GR  |   8 A$mutede   028F GR
+  8 A$mutede   0290 GR  |   8 A$mutede   0292 GR  |   8 A$mutede   0293 GR
+  8 A$mutede   001B GR  |   8 A$mutede   0295 GR  |   8 A$mutede   0297 GR
+  8 A$mutede   0298 GR  |   8 A$mutede   0299 GR  |   8 A$mutede   029A GR
+  8 A$mutede   029C GR  |   8 A$mutede   029D GR  |   8 A$mutede   029F GR
+  8 A$mutede   001D GR  |   8 A$mutede   02A0 GR  |   8 A$mutede   02A2 GR
+  8 A$mutede   02A3 GR  |   8 A$mutede   02A5 GR  |   8 A$mutede   02A6 GR
+  8 A$mutede   02A8 GR  |   8 A$mutede   02A9 GR  |   8 A$mutede   02AA GR
+  8 A$mutede   02AB GR  |   8 A$mutede   02AD GR  |   8 A$mutede   001F GR
+  8 A$mutede   02AE GR  |   8 A$mutede   02B0 GR  |   8 A$mutede   02B2 GR
+  8 A$mutede   02B3 GR  |   8 A$mutede   02B5 GR  |   8 A$mutede   02B6 GR
+  8 A$mutede   02B8 GR  |   8 A$mutede   02B9 GR  |   8 A$mutede   02BB GR
+  8 A$mutede   02BC GR  |   8 A$mutede   02BD GR  |   8 A$mutede   02BE GR
+  8 A$mutede   02C0 GR  |   8 A$mutede   02C1 GR  |   8 A$mutede   02C3 GR
+  8 A$mutede   02C4 GR  |   8 A$mutede   02C6 GR  |   8 A$mutede   02C7 GR
+  8 A$mutede   02C9 GR  |   8 A$mutede   02CA GR  |   8 A$mutede   02CC GR
+  8 A$mutede   02CD GR  |   8 A$mutede   02CE GR  |   8 A$mutede   02D0 GR
+  8 A$mutede   0021 GR  |   8 A$mutede   02D1 GR  |   8 A$mutede   02D3 GR
+  8 A$mutede   02D4 GR  |   8 A$mutede   02D6 GR  |   8 A$mutede   02D7 GR
+  8 A$mutede   02D8 GR  |   8 A$mutede   02D9 GR  |   8 A$mutede   02DB GR
+  8 A$mutede   02DC GR  |   8 A$mutede   02DE GR  |   8 A$mutede   02DF GR
+  8 A$mutede   02E1 GR  |   8 A$mutede   02E2 GR  |   8 A$mutede   02E4 GR
+  8 A$mutede   02E5 GR  |   8 A$mutede   02E6 GR  |   8 A$mutede   02E8 GR
+  8 A$mutede   0023 GR  |   8 A$mutede   02EA GR  |   8 A$mutede   02EC GR
+  8 A$mutede   02ED GR  |   8 A$mutede   02EF GR  |   8 A$mutede   02F0 GR
+  8 A$mutede   02F1 GR  |   8 A$mutede   02F3 GR  |   8 A$mutede   02F4 GR
+  8 A$mutede   0025 GR  |   8 A$mutede   02F6 GR  |   8 A$mutede   02F7 GR
+  8 A$mutede   02F8 GR  |   8 A$mutede   0027 GR  |   8 A$mutede   02FA GR
+  8 A$mutede   02FB GR  |   8 A$mutede   02FD GR  |   8 A$mutede   02FF GR
+  8 A$mutede   0300 GR  |   8 A$mutede   0302 GR  |   8 A$mutede   0029 GR
+  8 A$mutede   0304 GR  |   8 A$mutede   0306 GR  |   8 A$mutede   0307 GR
+  8 A$mutede   0309 GR  |   8 A$mutede   030B GR  |   8 A$mutede   002B GR
+  8 A$mutede   030C GR  |   8 A$mutede   030E GR  |   8 A$mutede   030F GR
+  8 A$mutede   0310 GR  |   8 A$mutede   0311 GR  |   8 A$mutede   0313 GR
+  8 A$mutede   002D GR  |   8 A$mutede   0314 GR  |   8 A$mutede   0315 GR
+  8 A$mutede   0317 GR  |   8 A$mutede   0319 GR  |   8 A$mutede   031B GR
+  8 A$mutede   031D GR  |   8 A$mutede   031F GR  |   8 A$mutede   0320 GR
+  8 A$mutede   0322 GR  |   8 A$mutede   0324 GR  |   8 A$mutede   0325 GR
+  8 A$mutede   0327 GR  |   8 A$mutede   0329 GR  |   8 A$mutede   032A GR
+  8 A$mutede   032C GR  |   8 A$mutede   032E GR  |   8 A$mutede   0330 GR
+  8 A$mutede   0332 GR  |   8 A$mutede   0334 GR  |   8 A$mutede   0335 GR
+  8 A$mutede   0337 GR  |   8 A$mutede   0339 GR  |   8 A$mutede   033B GR
+  8 A$mutede   002F GR  |   8 A$mutede   033D GR  |   8 A$mutede   033F GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (MS311 Series), page 4.
+
+Symbol Table
+
+  8 A$mutede   0341 GR  |   8 A$mutede   0343 GR  |   8 A$mutede   0345 GR
+  8 A$mutede   0346 GR  |   8 A$mutede   0348 GR  |   8 A$mutede   0031 GR
+  8 A$mutede   034A GR  |   8 A$mutede   034C GR  |   8 A$mutede   034E GR
+  8 A$mutede   0350 GR  |   8 A$mutede   0352 GR  |   8 A$mutede   0033 GR
+  8 A$mutede   0354 GR  |   8 A$mutede   0355 GR  |   8 A$mutede   0357 GR
+  8 A$mutede   0358 GR  |   8 A$mutede   035A GR  |   8 A$mutede   035B GR
+  8 A$mutede   035C GR  |   8 A$mutede   0034 GR  |   8 A$mutede   035E GR
+  8 A$mutede   0036 GR  |   8 A$mutede   035F GR  |   8 A$mutede   0361 GR
+  8 A$mutede   0363 GR  |   8 A$mutede   0365 GR  |   8 A$mutede   0038 GR
+  8 A$mutede   0367 GR  |   8 A$mutede   0368 GR  |   8 A$mutede   036A GR
+  8 A$mutede   036C GR  |   8 A$mutede   036E GR  |   8 A$mutede   0370 GR
+  8 A$mutede   0372 GR  |   8 A$mutede   0374 GR  |   8 A$mutede   003A GR
+  8 A$mutede   0376 GR  |   8 A$mutede   0378 GR  |   8 A$mutede   0379 GR
+  8 A$mutede   003C GR  |   8 A$mutede   037B GR  |   8 A$mutede   037D GR
+  8 A$mutede   037F GR  |   8 A$mutede   003D GR  |   8 A$mutede   0381 GR
+  8 A$mutede   0383 GR  |   8 A$mutede   0384 GR  |   8 A$mutede   0386 GR
+  8 A$mutede   0388 GR  |   8 A$mutede   038A GR  |   8 A$mutede   038C GR
+  8 A$mutede   038D GR  |   8 A$mutede   038F GR  |   8 A$mutede   0390 GR
+  8 A$mutede   0392 GR  |   8 A$mutede   0394 GR  |   8 A$mutede   003F GR
+  8 A$mutede   0395 GR  |   8 A$mutede   0397 GR  |   8 A$mutede   0399 GR
+  8 A$mutede   039B GR  |   8 A$mutede   039D GR  |   8 A$mutede   039E GR
+  8 A$mutede   039F GR  |   8 A$mutede   0040 GR  |   8 A$mutede   0042 GR
+  2 STK00      0003 GR  |   2 STK01      0002 GR  |   2 STK02      0001 GR
+  8 _00106_D   0384 R   |   8 _00108_D   038D R   |   8 _00110_D   0395 R
+  8 _00112_D   039E R   |   8 _00122_D   0330 R   |   8 _00126_D   0343 R
+  8 _00129_D   0354 R   |   8 _00133_D   035A R   |   8 _00150_D   031F R
+  8 _00151_D   032A R   |   8 _00159_D   0302 R   |   8 _00161_D   0309 R
+  8 _00162_D   030B R   |   8 _00167_D   027B R   |   8 _00168_D   0295 R
+  8 _00169_D   02B0 R   |   8 _00170_D   02CC R   |   8 _00171_D   02E5 R
+  8 _00173_D   02EC R   |   8 _00182_D   0268 R   |   8 _00183_D   0273 R
+  8 _00189_D   023F R   |   8 _00191_D   022D R   |   8 _00194_D   0249 R
+  8 _00200_D   0223 R   |   8 _00209_D   01E1 R   |   8 _00211_D   0201 R
+  8 _00212_D   0212 R   |   8 _00218_D   01AF R   |   8 _00224_D   0162 R
+  8 _00227_D   017A R   |   8 _00230_D   016A R   |   8 _00233_D   0151 R
+  8 _00235_D   0180 R   |   8 _00241_D   00F1 R   |   8 _00243_D   00FA R
+  8 _00247_D   0122 R   |   8 _00250_D   0127 R   |   8 _00253_D   012D R
+  8 _00255_D   0136 R   |   8 _00257_D   013E R   |   8 _00264_D   0052 R
+  8 _00265_D   0056 R   |   8 _00267_D   0092 R   |   8 _00269_D   0099 R
+  8 _00270_D   00A0 R   |   8 _00273_D   002F R   |   8 _00274_D   00A5 R
+  8 _00276_D   00A8 R   |   8 _00278_D   00D4 R   |   8 _00279_D   00DC R
+  8 _00283_D   00C8 R   |   8 _00287_D   00BC R   |   8 _00290_D   00B2 R
+  8 _00293_D   0021 R   |   8 _00336_D   003F R   |   8 _00337_D   004A R
+    _ACC       **** GX  |     _ADCG      **** GX  |     _ADCON     **** GX
+    _ADCRDY =  00C7 L   |     _ADH       **** GX  |     _ADL       **** GX
+    _ADP_IND   **** GX  |     _ADP_VPH   **** GX  |     _ADP_VPL   **** GX
+    _ADP_VPL   **** GX  |     _BEEPC     **** GX  |     _BGCON     **** GX
+    _C      =  00C4 L   |     _CRYPT     **** GX  |     _DACON     **** GX
+    _DAC_PH    **** GX  |     _DAC_PL    **** GX  |     _DCLAMP    **** GX
+    _DMAH      **** GX  |     _DMAHL     **** GX  |     _DMAL      **** GX
+    _EA     =  00C8 L   |     _FILTERG   **** GX  |     _ICE0      **** GX
+    _ICE1      **** GX  |     _ICE2      **** GX  |     _ICE3      **** GX
+    _ICE4      **** GX  |     _INTIO  =  00C5 L   |     _IO        **** GX
+    _IOCMP     **** GX  |     _IOCNT     **** GX  |     _IODIR     **** GX
+    _IOMASK    **** GX  |     _IOR       **** GX  |     _IOWK      **** GX
+    _IOWKDR    **** GX  |     _IROMDH    **** GX  |     _IROMDL    **** GX
+    _IROMDLH   **** GX  |     _LVDCON    **** GX  |     _LVRCON    **** GX
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (MS311 Series), page 5.
+
+Symbol Table
+
+    _OFFSETH   **** GX  |     _OFFSETL   **** GX  |     _OFFSETL   **** GX
+    _OV     =  00C2 L   |     _PA0    =  00E0 L   |     _PA1    =  00E1 L
+    _PA2    =  00E2 L   |     _PA3    =  00E3 L   |     _PA4    =  00E4 L
+    _PA5    =  00E5 L   |     _PA6    =  00E6 L   |     _PA7    =  00E7 L
+    _PAG       **** GX  |     _PB0    =  00F0 L   |     _PB1    =  00F1 L
+    _PB2    =  00F2 L   |     _PB3    =  00F3 L   |     _PTRCH     **** GX
+    _PTRCL     **** GX  |     _PWRH      **** GX  |     _PWRHL     **** GX
+    _PWRL      **** GX  |     _RAMP0     **** GX  |     _RAMP0H    **** GX
+    _RAMP0IN   **** GX  |     _RAMP0L    **** GX  |     _RAMP0LH   **** GX
+    _RAMP0UW   **** GX  |     _RAMP1     **** GX  |     _RAMP1H    **** GX
+    _RAMP1IN   **** GX  |     _RAMP1IN   **** GX  |     _RAMP1L    **** GX
+    _RAMP1LH   **** GX  |     _RAMP1UW   **** GX  |     _RCCON     **** GX
+    _RECMUTE   **** GX  |     _ROMP      **** GX  |     _ROMPH     **** GX
+    _ROMPINC   **** GX  |     _ROMPINC   **** GX  |     _ROMPL     **** GX
+    _ROMPLH    **** GX  |     _ROMPUW    **** GX  |     _SPIH      **** GX
+    _SPIL      **** GX  |     _SPIM      **** GX  |     _SPIMH     **** GX
+    _SPIOP     **** GX  |     _SPI_BAN   **** GX  |     _SPKC      **** GX
+    _SSPIC     **** GX  |     _SSPIH     **** GX  |     _SSPIL     **** GX
+    _SSPIM     **** GX  |     _STACKH    **** GX  |     _STACKL    **** GX
+    _SYSC      **** GX  |     _T1OV   =  00C3 L   |     _TCIF   =  00C9 L
+    _THRLD     **** GX  |     _TIMERC    **** GX  |     _TOV    =  00C0 G
+    _ULAWC     **** GX  |     _WTOV   =  00C6 L   |     _Z      =  00C1 L
+    _ZC        **** GX  |   7 __PARA_S   0000 GR  |     __ms311_   **** GX
+    __sp_dec   **** GX  |     __sp_inc   **** GX  |     _adcrdy =  00C7 L
+    _api_bee   **** GX  |     _api_bee   **** GX  |     _api_ent   **** GX
+    _api_ent   **** GX  |     _api_pla   **** GX  |     _api_pla   **** GX
+    _api_pla   **** GX  |     _api_rec   **** GX  |     _api_rec   **** GX
+    _api_rec   **** GX  |     _api_rec   **** GX  |     _api_set   **** GX
+    _api_tim   **** GX  |   3 _beep_ti   0005 GR  |     _c      =  00C4 L
+  8 _callbac   0213 GR  |   3 _countle   0008 GR  |     _ea     =  00C8 L
+  8 _enter_i   0185 GR  |   8 _enter_p   024E GR  |   8 _enter_r   01B7 GR
+  8 _get_key   037B GR  |   8 _init      035F GR  |   2 _init_io   0000 GR
+    _intio  =  00C5 L   |   3 _key_cod   0003 GR  |   8 _key_mac   030C GR
+  3 _key_sta   0000 GR  |   3 _key_tim   0004 GR  |   3 _last_st   0002 GR
+  8 _main      0002 GR  |   3 _nov_cou   0007 GR  |     _ov     =  00C2 L
+    _pa0    =  00E0 L   |     _pa1    =  00E1 L   |     _pa2    =  00E2 L
+    _pa3    =  00E3 L   |     _pa4    =  00E4 L   |     _pa5    =  00E5 L
+    _pa6    =  00E6 L   |     _pa7    =  00E7 L   |     _pb0    =  00F0 L
+    _pb1    =  00F1 L   |     _pb2    =  00F2 L   |     _pb3    =  00F3 L
+  3 _sleep_t   0006 GR  |   8 _sys_pla   0143 GR  |   8 _sys_rec   00E3 GR
+  3 _sys_sta   0001 GR  |     _t1ov   =  00C3 L   |     _tcif   =  00C9 L
+  8 _timer_r   02F7 GR  |     _tov    =  00C0 L   |   8 _wait_be   0225 GR
+    _wtov   =  00C6 L   |     _z      =  00C1 L
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (MS311 Series), page 6.
+
+Area Table
+
+   0 _CODE      size    0   flags    0
+   1 ms322sfr   size    0   flags  204
+   2 shareban   size    4   flags    4
+   3 DSEG       size    9   flags    0
+   4 ISEG       size    0   flags    0
+   5 XSEG       size    0   flags    0
+   6 XISEG      size    0   flags    0
+   7 SSEG       size    1   flags    4
+   8 STARTUP_   size  3A0   flags   20
+
